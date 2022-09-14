@@ -51,6 +51,7 @@ header{
     background-color:rgb(7,21,76);
     text-align: center;
     word-spacing: 24px;
+    width: 100%;
 }
 a{
     color: white;
@@ -91,7 +92,7 @@ p{
     border-radius: 5px;
 }
 .circle{
-    width: 20px;
+    width: 30px;
     height: 20px;
     border-radius: 50%;
     background-color:rgb(153,216,202);
@@ -117,67 +118,103 @@ word-spacing: 10px;
     margin: 0 16px;
     display: inline-block;
 }
-hr{
-    border: 1px dashed black;
-    margin:36px 420px;
-}
 .blog{
-    width: 340px;
+    width: 660px;
     border: 2px solid black;
-    margin: 24px auto;
+    margin: 10px auto;
     font-size: 0;
+    display: inline-block;
+    vertical-align: middle;
 }
 .box-one{
-    width: 80px;
-    height: 80px;
+    width: 200px;
+    height: 180px;
     background-color: grey;
     display: inline-block;
-    margin:10px 12px;
-    text-align: center;}
-
+    margin:10px 10px;
+}
 .code{
     border: 2px solid black;
+    margin: 10px 7px;
+}
+.container{
+    width: px;
+    margin: 0 auto;
+    text-align: center;
+}
+hr{
+    width: 640px;
 }
 
 
 
-
-/* HOME .blog */
+/*.blog page */
 .two-two{
-    color:rgb(17,145,63) ;
+        color:rgb(17,145,63) ;
 }
-img{
-    width: 300px;
-    height: 200px;
-    
-}
-artical{
-    width: 250px;
-    height: 200px;
+.div{
+    width: 45%;
     display: inline-block;
+    vertical-align: middle;
+    padding: 10px 20px;
+    text-align: left;
 }
-.joker{
-    width: 900px;
-margin: 0 auto;
-padding-top: 40px;
-text-align: center;
-
+.img{
+    width: 45%;
 }
-.heading{
-    width: 300px;
-    height: 200px;
-    background-color:white;
-    display: inline-block;
-}
-.space{
-    font-size: 16px;
+span{
+    font-size: 32px;
     font-weight: 700;
 }
-.lorem{
-    font-size: 12px;
+p{
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+.hero{
+   width: 1200px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px auto;
+    text-align: center;
+    margin-left:70px ;
+}
+img{
+    width: 46%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 10px;
 }
 button{
     background-color:rgb(25,187,61) ;
-    border: 1px solid rgb(25, 187, 61);
-    border-radius: 20%;
+    border-radius: 40%;
+    text-align: left;
+}
+.para{
+    width:40%;
+    display: inline-block;
+    text-align: center;
+    padding: 30px 20px;
+    word-spacing: 10px;
+    margin: 0 20px;
+    margin-left: 40px;
+    
+}
+.span{
+    font-size: 24px;
+    text-align: center;
+}
+.class{
+    display: inline-block;
+    vertical-align: middle;
+    text-align:left;
+    width: 90%;
+
+}
+.button{
+    background-color: white;
+    color:rgb(25,187,61) ;
+    text-decoration: underline;
+    border: 0ch;
 }
